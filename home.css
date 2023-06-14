@@ -1,0 +1,231 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.navbar .container{
+
+  font-size: 17px !important;
+  font-family: 'Hanken Grotesk', sans-serif !important;
+  /* margin: 0px 22px; */
+  padding: 0px 20px;
+}
+
+.navbar {
+    background: #fff;
+    /* box-shadow: 0 4px 6px rgba(22, 22, 26, 0.18); */ 
+    padding-top: 35px !important;
+
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #000;
+  }
+
+  .btn-outline-dark {
+    border-radius: 0;
+  }
+
+  .btn-outline-dark:focus {
+    box-shadow: none;
+  }
+
+  .navbar-brand {
+    color:rgb(62, 116, 243) !important;
+    padding:2.4px 0px !important;
+    text-decoration: none;
+    font: 'Hanken Grotesk', sans-serif ;
+    font-size: 26px !important;
+    letter-spacing: 1px;
+    font-weight: 600 !important;
+    /* padding-top: 24px 0px !important; */
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-link {
+    color: var(--bs-nav-link-color) !important;
+    display: block;
+    font-size: var(--bs-nav-link-font-size) !important;
+    font-weight: var(--bs-nav-link-font-weight) !important;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-link:hover {
+
+  color: #335eea !important;
+}
+
+.left-btn{
+    background: rgb(13, 110, 253);
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: 0.25s;
+    margin: 30px 30px 0px 0px;
+    border: none;
+}
+
+.left-btn:hover{
+
+  background-color: #335eea !important;
+}
+
+.right-btn{
+    background-color: rgba(51,94,234,.1);
+    color: #335eea;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: 0.25s;
+    margin: 30px 30px 0px 0px;
+    border: none;
+}
+
+.row{
+    justify-content: center;
+}
+
+.bt .left-btn {
+    background: rgb(62, 116, 243);
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: 0.25s;
+    /* margin: 30px 30px 0px 0px; */
+    margin-top: -8px;
+}
+
+.navbar-toggler-icon {
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    height: 1.5em;
+    vertical-align: middle;
+    width: 1.5em;
+}
+
+.display-3{
+
+  font-size: 48px !important;
+  font-family:'Hanken Grotesk', sans-serif !important;
+  margin: 0px 0px 16px;
+  line-height: 1.2 !important;
+  font-weight: 400 !important;
+
+}
+
+.pt-50 .container{
+
+  
+  animation: fadeInUp 1.5s;
+}
+
+.btn {
+  
+  padding: 1rem 1.7rem !important;
+ 
+}
+
+.abc{
+    background-color: rgba(51,94,234,.1) !important;
+    color: #335eea !important;
+}
+
+.abc:hover{
+
+  color: white !important;
+  background-color: rgb(13, 110, 253) !important;
+  /* box-shadow: 0 0 0 rgba(22,28,45,0) !important;
+    transition: box-shadow .25s ease,transform .25s ease !important; */
+
+    box-shadow: 0 .5rem 1.5rem rgba(22,28,45,.1)!important;
+}
+
+@media (max-width: 991px){
+
+  .display-3{
+    font-size: 36px !important;
+  font-family: 'Hanken Grotesk', sans-serif !important;
+    margin: 0px 0px 16px !important;
+  }
+
+  .lead{
+    
+    font-size: 19px !important;
+  font-family: 'Hanken Grotesk', sans-serif !important;
+    margin: 0px 0px 32px !important;
+  }
+}
+
+@media (min-width: 992px){
+
+  .mb-lg-8 {
+     margin-bottom: 3rem!important; 
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 2.5rem !important;
+    padding: 8px 24px;
+}
+}
+
+  @media screen and (max-width: 768px) {
+    .btn-outline-dark {
+      border: none;
+      padding: 0;
+      outline: none;
+    }
+  
+    .btn-outline-dark:hover {
+      background: none;
+      color: gray;
+    }
+    
+  }
+
+  @media (min-width: 768px){
+
+    .pt-md-11 {
+      padding-top: 6rem!important;
+  }
+
+  .mw-md-150 {
+    max-width: 110% !important;
+  }
+
+  .text-md-start {
+    text-align: left!important;
+
+  }
+
+  .pt-4 .container{
+
+    padding-top: 0px !important;
+  }
+}
+
+/* @keyframes fadeInUp { 
+
+  from{opacity: 0;} 
+  to{opacity: 1;}
+} */
